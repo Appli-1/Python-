@@ -1,8 +1,7 @@
 import random
 
-num = random.randint(0, 1)   # RNGesus will give us a random number that is either 0 or 1
-
+num = random.randint(0, 1)   # RNGesus genera un numero random del 0 al 1
 if num > 0.5:
-  print('Heads')
-else:
-  print('Tails')
+  print('Cara')
+else:  # y si no me da cello si es menor a 0.5
+  print('Cello')
