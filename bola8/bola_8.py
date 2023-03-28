@@ -1,6 +1,6 @@
 import random
-preguntame = input("Dime lo que quieras ")
-
+preguntame = input("Dime lo que quieras: ")
+#una manera para hacer bola8 utilizando una lista y un random.choice para escoger una opcion de la lista 
 preguntas = ["Sí definitivamente",  #se crea una lista 
 "Es decididamente así",
 "Sin duda",
@@ -16,7 +16,7 @@ respuestas = random.choice(preguntas) #usar random.choice para una opcion aleato
 print(respuestas)
 
 # Magic 8 Ball 🎱
-# Codédex
+# otra forma utilizando el if, elif, else
 
 import random
 
