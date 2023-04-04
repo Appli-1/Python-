@@ -29,7 +29,7 @@ if respuesta == "a" and  respuesta1 == "d" and respuesta2 == "d":
 elif respuesta == "a" and respuesta1 == "c" and respuesta2  == "c":
     print("Bienvenido a Ravenclaw")
 elif respuesta == "a" and respuesta1 == "a" and respuesta2  == "a":
-    print("Bienvenido a Ravenclaw")
+    print("Bienvenido a Slytherin")
 elif respuesta == "a" and respuesta1 == "b" and respuesta2  == "b":
     print("Bienvenido a Hufflepuff")
 elif respuesta == "b" and respuesta1 == "c" and respuesta2  == "c":
